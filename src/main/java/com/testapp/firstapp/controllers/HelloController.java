@@ -12,7 +12,8 @@ public class HelloController {
         String res = "<html><body><table border='1'>";
         for (int i=0; i<10; i++)
         {
-            res += "<tr><td>" + i + "</td></tr>";
+            res += "<tr><td>" + i + "</td>";
+            res += "<td>Value " + i + "</td></tr>";
         }
         res += "</table></body></html>";
         return (res);
