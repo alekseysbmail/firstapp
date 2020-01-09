@@ -13,7 +13,7 @@ public class HelloController {
         for (int i=0; i<10; i++)
         {
             res += "<tr><td>" + i + "</td>";
-            res += "<td>Value " + i + "</td></tr>";
+            res += "<td>Test value " + i + "</td></tr>";
         }
         res += "</table></body></html>";
         return (res);
